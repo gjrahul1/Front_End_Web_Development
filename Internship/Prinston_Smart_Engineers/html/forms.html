@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <form action="../html/index.html" method="get">
+
+        <h1>FORMS</h1> 
+        
+        <fieldset>
+            <legend>PERSONAL DETAILS</legend>
+
+        <label for="Username">Username </label> <br>
+            <input type="text" name="Username" maxlength="16" placeholder="Enter your name">
+    
+        <br> <br>
+        <label for="Email"> Email Address </label> <br>
+            <input type="email" name="Email" placeholder="Enter your email" required>
+        <br> <br>
+
+        <label for="Password">Password</label> <br> 
+        <input type="password" name="Password" placeholder="Enter your password" required>
+
+        <br> <br>
+
+        <p>
+            <label for="Gender">Gender</label> <br> 
+            <input type="radio" name="Gender" value="Female" checked="">Female
+            <input type="radio" name="Gender" value="Male">Male
+            <input type="radio" name="Gender" value="Others">Others
+        </p>
+    
+    </fieldset>
+
+        <fieldset>
+            <legend>OTHER DETAILS</legend>
+        <p>
+            <input type="checkbox" name="t&c" value="agree" required> Do you agree with terms and conditions ?
+        </p>
+
+        <p>
+            <input type="file">
+        </p>
+
+        <label for="Option">Select</label> <br>
+        <select name="Option">
+        <option value="cse">Computer Science</option>
+        <option value="ise">Information Science</option>
+        <option value="ee">Electronics and Electrical Engineering</option>
+
+        </select> <br> <br>
+
+        <label for="Comments">Comments</label> <br>
+        <textarea maxlength="1000" placeholder="Cover Letter" name="Comments" required></textarea> <br> <br>
+
+    </fieldset> <br>
+
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>

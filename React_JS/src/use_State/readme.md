@@ -1,1 +1,1 @@
-- <b>App(copy).jsx</b> has different component and <b>App.jsx</b> has different component.
+- <b>App - copy.jsx</b> has different component and <b>App.jsx</b> has different component.
